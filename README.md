@@ -34,6 +34,11 @@
       <td>txm.mc.chat.display.colors</td>
       <td>Displays for the sender all the colors codes: <br />"<b>0123456789ABCDEF</b>"</td>
     </tr>
+    <tr>
+      <td>/style<br />/styles</td>
+      <td>txm.mc.chat.display.styles</td>
+      <td>Displays for the sender all the styles codes: <br />"<b></b>"</td>
+    </tr>
   </tbody>
 </table>
 <b>\*The strike-thru words are commands that do not work "<s>example.text</s>"</b><br />

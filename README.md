@@ -15,8 +15,13 @@
   </thead>
   <tbody>
     <tr>
+      <td>/HUB</td>
+      <td rowspan="8"><i>Cannot be executed from console without a <b>sudo-command-plugin</b>.</i></td>
+      <td>txm.mc.teleport.hub</td>
+      <td>Teleports the %PLAYER% to server's start worlds "<b>HUB</b>" / "<b>SPAWN</b></td>
+    </tr>
+    <tr>
       <td>/TXM</td>
-      <td rowspan="4"><i>Cannot be executed from console without a <b>sudo-command-plugin</b>.</i></td>
       <td>txm.mc.supertool</td>
       <td rowspan="2">Enables and gives the<br /><b>"TXM-MC test supertool"</b> (a Dimond Pickaxe, in hand)</td>
     </tr>
@@ -30,16 +35,26 @@
       <td>Disables and removes the<br /><b>"TXM-MC test supertool"</b> (a Dimond Pickaxe, in hand)</td>
     </tr>
     <tr>
-      <td>/color<br />/colors</td>
+      <td>/color<br />/colors<br />/c</td>
       <td>txm.mc.chat.display.colors</td>
       <td>Displays for the sender all the colors codes: <br />"<b>0123456789ABCDEF</b>"</td>
     </tr>
     <tr>
       <td>/style<br />/styles</td>
       <td>txm.mc.chat.display.styles</td>
-      <td>Displays for the sender all the styles codes: <br />"<b></b>"</td>
+      <td>Displays for the sender all the styles codes: <br />"<b>L = BOLD, </b>"</td>
+    </tr>
+    <tr>
+      <td>/all<br />/styles</td>
+      <td>txm.mc.chat.display.styles</td>
+      <td>Displays for the sender all the styles codes: <br />"<b>L = BOLD, N = UNDERLINE, </b>"</td>
+    </tr>
+    <tr>
+      <td>/hi<br />/hey<br />/hello<br />/hej</td>
+      <td>txm.mc.chat.display.greetings.message</td>
+      <td>Displays for the sender a greeting response: <br />"<b>Hello %PLAYER%!</b>"</td>
     </tr>
   </tbody>
 </table>
 <b>\*The strike-thru words are commands that do not work "<s>example.text</s>"</b><br />
-<b>\*This GitHub repository does not contain the entire project code due to security.
+<b>\*This GitHub repository does not contain the entire project code due to security.</b>
